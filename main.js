@@ -75,3 +75,13 @@
 // }
 // console.log(tiny(.3));
 
+// Problem 10
+var getSeconds = function(string){
+	var hours = Number(string.slice(0,2));
+	var minutes = Number(string.slice(3,5));
+	var result = (hours*60) + minutes;
+	return result;
+}
+
+console.log(getSeconds("10:05"));
+
